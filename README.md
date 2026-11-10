@@ -264,3 +264,9 @@ Add a `LICENSE` file if your course or institution requires one.
 ## 📚 Reference
 
 W. Su, N. Yoshinaga, M. Toyoda. *Query-focused individual simulation with progressive persona completion.* 2026. The method, datasets and evaluation protocol here are a reduced reimplementation inspired by this work, not a reproduction of its results.
+
+
+## Contributions
+
+- **Rallapalli Shahul Basha (24BTRCL161):** Testing the policy, running experiments and recording results, writing the documentation.
+- **R Mourya Prakash (24BTRCL156):** Implementing the REINFORCE policy and the LLM backend.
