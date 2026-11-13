@@ -1,13 +1,13 @@
-# 🧠 AdeptSim-Lite: Learning What to Ask and When to Stop for Persona Simulation
+# 🧠 AdeptSim: Learning What to Ask and When to Stop for Persona Simulation
 
 ![Python](https://img.shields.io/badge/python-3.10--3.12-blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-REINFORCE-red)
+![PyTorch](https://img.shields.io/badge/PyTorch-Double%20DQN-red)
 ![LLM](https://img.shields.io/badge/LLM-Ollama%20%7C%20Gemini%20API-green)
 
 **Jain University, Department of CSE (AIML)**
 Rallapalli Shahul Basha (24BTRCL161) and R Mourya Prakash (24BTRCL156)
 
-An LLM can answer "what would *this person* do?" only if it knows something about that person. Asking for everything up front is wasteful, and asking until a verbalized 0-100 confidence reaches a fixed threshold is unreliable. **AdeptSim-Lite** treats persona acquisition as a **Markov Decision Process** and trains a small **REINFORCE policy** that decides *which attribute to ask a helper about next* and *when to stop*, trading answer quality against the number of questions.
+An LLM can answer "what would *this person* do?" only if it knows something about that person. Asking for everything up front is wasteful, and asking until a verbalized 0-100 confidence reaches a fixed threshold is unreliable. **AdeptSim** treats persona acquisition as a **Markov Decision Process** and trains a small **Double DQN agent** that decides *which attribute to ask a helper about next* and *when to stop*, trading answer quality against the number of questions.
 
 This project builds on the idea of progressive persona completion from Su et al. (2026), *Query-focused individual simulation with progressive persona completion*, at a much smaller scale (see [Limitations](#-limitations)).
 
